@@ -69,8 +69,7 @@ function setup() {
 }
 
 function draw() {
-  //
-  trex.debug = true;
+  // trex.debug = true;
   background(255); 
   camera.off();
   fill(0);
