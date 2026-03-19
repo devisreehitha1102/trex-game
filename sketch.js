@@ -71,11 +71,10 @@ function setup() {
 function draw() {
   trex.debug = true;
   background(255); 
-  camera.off();
   fill(0);
   stroke(255);          // black outline
   strokeWeight(2);
-  textSize(20)
+  textSize(10)
   text("Score: "+ score, 500,50);
   
   if (gameState===PLAY){
