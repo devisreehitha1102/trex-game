@@ -161,7 +161,7 @@ if (!p5.prototype.originalCreateCanvas_) {
   p5.prototype.originalCreateCanvas_ = p5.prototype.createCanvas;
   p5.prototype.createCanvas = function() {
     var result = this.originalCreateCanvas_.apply(this, arguments);
-    this.fill(this.color(127, 127, 127));
+    this.fill(this.color(255, 255, 255));
     return result;
   };
 }
