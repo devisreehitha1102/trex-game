@@ -71,9 +71,10 @@ function setup() {
 function draw() {
   //
   trex.debug = true;
-  background(255);
-  fill(255);
-  stroke(0);          // black outline
+  background(255); 
+  camera.off();
+  fill(0);
+  stroke(255);          // black outline
   strokeWeight(2);
   textSize(20)
   text("Score: "+ score, 500,50);
