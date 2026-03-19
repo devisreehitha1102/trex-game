@@ -69,10 +69,8 @@ function setup() {
 }
 
 function draw() {
-  //trex.debug = true;
-  background(255); 
-  fill(0);
-  strokeWeight(2);
+  trex.debug = true;
+  background(255);
   textSize(15)
   text("Score: "+ score, 500,50);
   
